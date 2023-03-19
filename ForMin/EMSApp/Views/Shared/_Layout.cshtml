@@ -1,0 +1,73 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EMSApp</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/popup.css" />
+    <link rel="stylesheet" href="~/EMSApp.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">EMS Submission</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark topA @ViewBag.IndexClick" asp-area="" asp-controller="Home" asp-action="Index">Submission</a>
+                        </li>
+                        @if (User.IsInRole("FRD-APPLICATION-EMS-SUBMISSION-ADMIN"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark topA @ViewBag.AdminClick" asp-area="" asp-controller="Home" asp-action="Admin">Admin</a>
+                            </li>
+                            <li class="nav-item marginLeft20 dropdown" style="padding-top: 8px;">
+                                <a class="topA @ViewBag.ManageClick dropdown-toggle" data-toggle="dropdown">Manage<a class="caret" style="cursor:pointer !important"></a></a>
+                                <ul class="dropdown-menu" style="background: black; margin-top: -5px !important;">
+                                    <li class="nav-item">
+                                        <a class="nav-link subTopA @ViewBag.CategoryClick" asp-area="" asp-controller="Home" asp-action="Category">Category</a>
+                                    </li>
+                                    @*<li class="nav-item">
+                                <a class="nav-link subTopA @ViewBag.CoordinatorPIClick" asp-area="" asp-controller="Home" asp-action="SubCategory">Sub Category</a>
+                                </li>*@
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                    <p class="nav navbar-text">
+                        Hello, <span id="userName">@HttpContextAccessor.HttpContext.Session.GetString("UserName")</span>!
+                        <span id="userId" style="display:none;">@User.Identity.Name</span>
+                        <a href="https://firenet/applications/stafflocator/Home/MyInfo" class="topA @ViewBag.MyInfoClick" target="_blank"><img id="imgPerson" src="@HttpContextAccessor.HttpContext.Session.GetString("PhotoFile")" onerror="this.onerror=null;this.src='https://firenet/images/blue-person-icon.png';" title="My Information" /></a>
+                    </p>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container" style="max-width: 100%">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted" style="max-width: 100% !important; padding: 0px 15px !important;">
+        <div class="row">
+            <p class="col-6">&copy; 2022 - EMS Department</p>
+            <p class="col-6 right">In case of questions or problems, please contact <a href="http://xxxtest.com/Dept/DIT/Pages/ITSD2.aspx">IT Service Desk</a></p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

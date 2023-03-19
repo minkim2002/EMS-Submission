@@ -1,0 +1,103 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\images\clear_white.png" />
+    <Content Remove="wwwroot\images\delete_white.png" />
+    <Content Remove="wwwroot\images\download_02_white.png" />
+    <Content Remove="wwwroot\images\down_circle.png" />
+    <Content Remove="wwwroot\images\edit_white.png" />
+    <Content Remove="wwwroot\images\info_white.png" />
+    <Content Remove="wwwroot\images\more_white.png" />
+    <Content Remove="wwwroot\images\next_white.png" />
+    <Content Remove="wwwroot\images\prev_white.png" />
+    <Content Remove="wwwroot\images\search_icon.png" />
+    <Content Remove="wwwroot\images\Thumbs.db" />
+    <Content Remove="wwwroot\images\white_search.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="src\emsAdmin.tsx" />
+    <None Remove="src\EMSAdmin\EMSNoteInsertPopup.tsx" />
+    <None Remove="src\EMSAdmin\EMSNoteUpdatePopup.tsx" />
+    <None Remove="src\emsCategory.tsx" />
+    <None Remove="src\EMSCategory\EMSCategory.tsx" />
+    <None Remove="src\EMSCategory\EMSCategoryApp.tsx" />
+    <None Remove="src\EMSCategory\EMSCategoryInsertPopup.tsx" />
+    <None Remove="src\EMSCategory\EMSCategoryUpdatePopup.tsx" />
+    <None Remove="src\EMSCategory\EMSNote.tsx" />
+    <None Remove="src\emsSubmit.tsx" />
+    <None Remove="src\EMSSubmit\EMSAdmin.tsx" />
+    <None Remove="src\EMSSubmit\EMSAdminApp.tsx" />
+    <None Remove="src\EMSSubmit\EMSDetail.tsx" />
+    <None Remove="src\EMSSubmit\EMSSubmit.tsx" />
+    <None Remove="src\EMSSubmit\EMSSubmitApp.tsx" />
+    <None Remove="src\EMSSubmit\EMSSubmitInsertPopup.tsx" />
+    <None Remove="src\EMSSubmit\EMSSubmitTab.tsx" />
+    <None Remove="src\EMSSubmit\EMSSubmitUpdatePopup.tsx" />
+    <None Remove="src\EMSSubmit\EMSSupplementalDoc.tsx" />
+    <None Remove="src\EMSSubmit\EMSSupplementalDocInsertPopup.tsx" />
+    <None Remove="src\EMSSubmit\EMSSupplementalDocUpdatePopup.tsx" />
+    <None Remove="src\EMSSubmit\SelectAnEmployee.tsx" />
+    <None Remove="src\ProgressPopup.tsx" />
+    <None Remove="src\utilities\emsUtilities.tsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\clear_white.png" />
+    <None Include="wwwroot\images\delete_white.png" />
+    <None Include="wwwroot\images\download_02_white.png" />
+    <None Include="wwwroot\images\down_circle.png" />
+    <None Include="wwwroot\images\edit_white.png" />
+    <None Include="wwwroot\images\info_white.png" />
+    <None Include="wwwroot\images\more_white.png" />
+    <None Include="wwwroot\images\next_white.png" />
+    <None Include="wwwroot\images\prev_white.png" />
+    <None Include="wwwroot\images\search_icon.png" />
+    <None Include="wwwroot\images\Thumbs.db" />
+    <None Include="wwwroot\images\white_search.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Negotiate" Version="6.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="System.DirectoryServices.AccountManagement" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="src\emsAdmin.tsx" />
+    <TypeScriptCompile Include="src\EMSAdmin\EMSNoteInsertPopup.tsx" />
+    <TypeScriptCompile Include="src\EMSAdmin\EMSNoteUpdatePopup.tsx" />
+    <TypeScriptCompile Include="src\emsCategory.tsx" />
+    <TypeScriptCompile Include="src\EMSCategory\EMSCategory.tsx" />
+    <TypeScriptCompile Include="src\EMSCategory\EMSCategoryApp.tsx" />
+    <TypeScriptCompile Include="src\EMSCategory\EMSCategoryInsertPopup.tsx" />
+    <TypeScriptCompile Include="src\EMSCategory\EMSCategoryUpdatePopup.tsx" />
+    <TypeScriptCompile Include="src\EMSAdmin\EMSNote.tsx" />
+    <TypeScriptCompile Include="src\emsSubmit.tsx" />
+    <TypeScriptCompile Include="src\EMSAdmin\EMSAdmin.tsx" />
+    <TypeScriptCompile Include="src\EMSAdmin\EMSAdminApp.tsx" />
+    <TypeScriptCompile Include="src\EMSSubmit\EMSDetail.tsx" />
+    <TypeScriptCompile Include="src\EMSSubmit\EMSSubmit.tsx" />
+    <TypeScriptCompile Include="src\EMSSubmit\EMSSubmitApp.tsx" />
+    <TypeScriptCompile Include="src\EMSSubmit\EMSSubmitInsertPopup.tsx" />
+    <TypeScriptCompile Include="src\EMSSubmit\EMSSubmitTab.tsx" />
+    <TypeScriptCompile Include="src\EMSSubmit\EMSSubmitUpdatePopup.tsx" />
+    <TypeScriptCompile Include="src\EMSSubmit\EMSSupplementalDoc.tsx" />
+    <TypeScriptCompile Include="src\EMSSubmit\EMSSupplementalDocInsertPopup.tsx" />
+    <TypeScriptCompile Include="src\EMSSubmit\EMSSupplementalDocUpdatePopup.tsx" />
+    <TypeScriptCompile Include="src\EMSSubmit\SelectAnEmployee.tsx" />
+    <TypeScriptCompile Include="src\ProgressPopup.tsx" />
+    <TypeScriptCompile Include="src\utilities\emsUtilities.tsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\dist\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,113 @@
+﻿.ModalDiv {
+    padding: 1.5% !important;
+    background-color: lightgoldenrodyellow;
+}
+
+.alertModal {
+    width: 75% !important;
+    margin-left: 12.5% !important;
+    margin-top: 10% !important;
+}
+
+.alertPopupDiv {
+    border: solid orange 5px !important;
+}
+
+/* Small Image Button */
+
+.imgButton {
+    min-width: 30px !important;
+}
+
+.btnImage {
+    height: 20px !important;
+}
+
+.btnImageCause {
+    height: 40px !important;
+}
+
+.imgButtonAppend {
+    min-width: 20px !important;
+    margin-left: -3px;
+}
+
+.btnImageAppend {
+    height: 20px;
+}
+
+.imgButtonTable {
+    min-width: 20px !important;
+    margin: 0px !important;
+    margin-left: 5px !important;
+    padding: 2px 7px !important;
+}
+
+.btnImageTable {
+    height: 15px !important;
+}
+
+.btnImgSearch {
+    background-color: black !important;
+}
+
+.btnImgInsert {
+    background-color: green !important;
+    color: white !important;
+}
+
+
+.btnImgDownload {
+    background-color: darkgoldenrod !important;
+}
+
+.btnImgInsertTable {
+    background-color: green !important;
+    min-width: 20px !important;
+    margin: 0px !important;
+    margin-left: 5px !important;
+    padding: 2px 7px !important;
+}
+
+#imgPerson {
+    border-radius: 8px;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.btnImageVideo {
+    background-color: #0c4c7d !important;
+}
+
+/* Small Image Button */
+
+.MuiPaper-root {
+    padding: 20px;
+}
+
+.MuiTextField-root, .selectForm {
+    width: 100%;
+}
+
+.btnClear, .btnClose {
+    margin-left: 10px !important;
+}
+
+.btnClose {
+    color: darkgreen !important;
+}
+
+.btnBlack {
+    color: white !important;
+    background-color: black !important;
+}
+
+.popupCloseBtn {
+    margin-top: 20px !important;
+}
+
+/* Modal */
+.updateModal, .insertModal {
+    overflow: auto;
+}

@@ -1,0 +1,513 @@
+{
+  "Files": [
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\EMSApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EMSApp.bundle.scp.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\css\\popup.css",
+      "PackagePath": "staticwebassets\\css\\popup.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSAdmin\\EMSAdmin.js",
+      "PackagePath": "staticwebassets\\dist\\EMSAdmin\\EMSAdmin.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSAdmin\\EMSAdmin.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSAdmin\\EMSAdmin.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSAdmin\\EMSAdminApp.js",
+      "PackagePath": "staticwebassets\\dist\\EMSAdmin\\EMSAdminApp.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSAdmin\\EMSAdminApp.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSAdmin\\EMSAdminApp.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSAdmin\\EMSNote.js",
+      "PackagePath": "staticwebassets\\dist\\EMSAdmin\\EMSNote.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSAdmin\\EMSNote.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSAdmin\\EMSNote.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSAdmin\\EMSNoteInsertPopup.js",
+      "PackagePath": "staticwebassets\\dist\\EMSAdmin\\EMSNoteInsertPopup.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSAdmin\\EMSNoteInsertPopup.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSAdmin\\EMSNoteInsertPopup.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSAdmin\\EMSNoteUpdatePopup.js",
+      "PackagePath": "staticwebassets\\dist\\EMSAdmin\\EMSNoteUpdatePopup.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSAdmin\\EMSNoteUpdatePopup.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSAdmin\\EMSNoteUpdatePopup.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSCategory\\EMSCategory.js",
+      "PackagePath": "staticwebassets\\dist\\EMSCategory\\EMSCategory.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSCategory\\EMSCategory.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSCategory\\EMSCategory.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSCategory\\EMSCategoryApp.js",
+      "PackagePath": "staticwebassets\\dist\\EMSCategory\\EMSCategoryApp.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSCategory\\EMSCategoryApp.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSCategory\\EMSCategoryApp.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSCategory\\EMSCategoryInsertPopup.js",
+      "PackagePath": "staticwebassets\\dist\\EMSCategory\\EMSCategoryInsertPopup.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSCategory\\EMSCategoryInsertPopup.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSCategory\\EMSCategoryInsertPopup.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSCategory\\EMSCategoryUpdatePopup.js",
+      "PackagePath": "staticwebassets\\dist\\EMSCategory\\EMSCategoryUpdatePopup.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSCategory\\EMSCategoryUpdatePopup.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSCategory\\EMSCategoryUpdatePopup.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSDetail.js",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSDetail.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSDetail.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSDetail.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSSubmit.js",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSSubmit.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSSubmit.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSSubmit.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSSubmitApp.js",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSSubmitApp.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSSubmitApp.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSSubmitApp.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSSubmitInsertPopup.js",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSSubmitInsertPopup.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSSubmitInsertPopup.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSSubmitInsertPopup.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSSubmitTab.js",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSSubmitTab.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSSubmitTab.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSSubmitTab.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSSubmitUpdatePopup.js",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSSubmitUpdatePopup.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSSubmitUpdatePopup.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSSubmitUpdatePopup.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSSupplementalDoc.js",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSSupplementalDoc.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSSupplementalDoc.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSSupplementalDoc.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSSupplementalDocInsertPopup.js",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSSupplementalDocInsertPopup.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSSupplementalDocInsertPopup.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSSupplementalDocInsertPopup.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSSupplementalDocUpdatePopup.js",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSSupplementalDocUpdatePopup.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\EMSSupplementalDocUpdatePopup.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\EMSSupplementalDocUpdatePopup.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\SelectAnEmployee.js",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\SelectAnEmployee.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\EMSSubmit\\SelectAnEmployee.js.map",
+      "PackagePath": "staticwebassets\\dist\\EMSSubmit\\SelectAnEmployee.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\ProgressPopup.js",
+      "PackagePath": "staticwebassets\\dist\\ProgressPopup.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\ProgressPopup.js.map",
+      "PackagePath": "staticwebassets\\dist\\ProgressPopup.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\emsAdmin.bundle.js",
+      "PackagePath": "staticwebassets\\dist\\emsAdmin.bundle.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\emsAdmin.bundle.js.map",
+      "PackagePath": "staticwebassets\\dist\\emsAdmin.bundle.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\emsAdmin.js",
+      "PackagePath": "staticwebassets\\dist\\emsAdmin.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\emsAdmin.js.map",
+      "PackagePath": "staticwebassets\\dist\\emsAdmin.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\emsCategory.bundle.js",
+      "PackagePath": "staticwebassets\\dist\\emsCategory.bundle.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\emsCategory.bundle.js.map",
+      "PackagePath": "staticwebassets\\dist\\emsCategory.bundle.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\emsCategory.js",
+      "PackagePath": "staticwebassets\\dist\\emsCategory.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\emsCategory.js.map",
+      "PackagePath": "staticwebassets\\dist\\emsCategory.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\emsSubmit.bundle.js",
+      "PackagePath": "staticwebassets\\dist\\emsSubmit.bundle.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\emsSubmit.bundle.js.map",
+      "PackagePath": "staticwebassets\\dist\\emsSubmit.bundle.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\emsSubmit.js",
+      "PackagePath": "staticwebassets\\dist\\emsSubmit.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\emsSubmit.js.map",
+      "PackagePath": "staticwebassets\\dist\\emsSubmit.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\src_EMSSubmit_EMSDetail_tsx-src_EMSSubmit_EMSSubmitUpdatePopup_tsx.bundle.js",
+      "PackagePath": "staticwebassets\\dist\\src_EMSSubmit_EMSDetail_tsx-src_EMSSubmit_EMSSubmitUpdatePopup_tsx.bundle.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\src_EMSSubmit_EMSDetail_tsx-src_EMSSubmit_EMSSubmitUpdatePopup_tsx.bundle.js.map",
+      "PackagePath": "staticwebassets\\dist\\src_EMSSubmit_EMSDetail_tsx-src_EMSSubmit_EMSSubmitUpdatePopup_tsx.bundle.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\src_EMSSubmit_EMSSubmitUpdatePopup_tsx.bundle.js",
+      "PackagePath": "staticwebassets\\dist\\src_EMSSubmit_EMSSubmitUpdatePopup_tsx.bundle.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\src_EMSSubmit_EMSSubmitUpdatePopup_tsx.bundle.js.map",
+      "PackagePath": "staticwebassets\\dist\\src_EMSSubmit_EMSSubmitUpdatePopup_tsx.bundle.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\utilities\\emsUtilities.js",
+      "PackagePath": "staticwebassets\\dist\\utilities\\emsUtilities.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\utilities\\emsUtilities.js.map",
+      "PackagePath": "staticwebassets\\dist\\utilities\\emsUtilities.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\vendors-node_modules_babel_polyfill_lib_index_js-node_modules_material-ui_core_esm_index_js-n-a05e18.bundle.js",
+      "PackagePath": "staticwebassets\\dist\\vendors-node_modules_babel_polyfill_lib_index_js-node_modules_material-ui_core_esm_index_js-n-a05e18.bundle.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\dist\\vendors-node_modules_babel_polyfill_lib_index_js-node_modules_material-ui_core_esm_index_js-n-a05e18.bundle.js.map",
+      "PackagePath": "staticwebassets\\dist\\vendors-node_modules_babel_polyfill_lib_index_js-node_modules_material-ui_core_esm_index_js-n-a05e18.bundle.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\images\\add_white.png",
+      "PackagePath": "staticwebassets\\images\\add_white.png"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "I:\\EMSSubmission\\New\\EMSApp\\EMSApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.EMSApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.EMSApp.props",
+      "PackagePath": "build\\EMSApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.EMSApp.props",
+      "PackagePath": "buildMultiTargeting\\EMSApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.EMSApp.props",
+      "PackagePath": "buildTransitive\\EMSApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

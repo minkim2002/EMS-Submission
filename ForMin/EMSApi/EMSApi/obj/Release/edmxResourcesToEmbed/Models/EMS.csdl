@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ffrDevEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CodeFrdUnits" EntityType="EMSModel.CodeFrdUnit" />
+    <EntitySet Name="CodeVFrdWorkGroupWBattalions" EntityType="EMSModel.CodeVFrdWorkGroupWBattalion" />
+    <EntitySet Name="EMSCategories" EntityType="EMSModel.EMSCategory" />
+    <EntitySet Name="EMSComplaints" EntityType="EMSModel.EMSComplaint" />
+    <EntitySet Name="EMSVCategories" EntityType="EMSModel.EMSVCategory" />
+    <EntitySet Name="EMSVComplaints" EntityType="EMSModel.EMSVComplaint" />
+    <EntitySet Name="EMSSupplementalDOCs" EntityType="EMSModel.EMSSupplementalDOC" />
+    <EntitySet Name="EMSNotes" EntityType="EMSModel.EMSNote" />
+  </EntityContainer>
+  <EntityType Name="CodeFrdUnit">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Unit" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="WorkGroupId" Type="Int32" />
+    <Property Name="WorkGroupAbbrv" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CodeVFrdWorkGroupWBattalion">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="WorkGroupAbbrv" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="WorkGroupAbbrv" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="WorkGroupName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="WorkGroupDesc" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="PSMACode" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="LocationCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="IndexCode" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="EMSIndexCode" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="CodeAssociation" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="PhoneNo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Fax" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Pager" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CellPhone" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="IsStation" Type="Boolean" />
+    <Property Name="IsVolStation" Type="Boolean" />
+    <Property Name="Building" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="StreetNum" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="StreetName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="State" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="ZipCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="IsHistory" Type="Boolean" />
+    <Property Name="Comments" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="FOCUSWorkLocationCode" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="ParentId" Type="Int32" />
+    <Property Name="CreatedBy" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedBy" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="UpdatedDate" Type="DateTime" Precision="3" />
+    <Property Name="battalion" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="EMSCategory">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ParentId" Type="Int32" />
+    <Property Name="CategoryType" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="CategoryCode" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="CategoryDesc" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="SortOrder" Type="Int32" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreatedBy" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="UpdatedDate" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedBy" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="EMSComplaint">
+    <Key>
+      <PropertyRef Name="ComplaintId" />
+    </Key>
+    <Property Name="ComplaintId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ComplaintStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SubmitterName" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="SubmitterPhoneNo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SubmitterShit" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="RequestDate" Type="DateTime" Precision="0" />
+    <Property Name="Location" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="SubCategoryId" Type="Int32" />
+    <Property Name="SubCategoryOthers" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Unit" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="VehicleNumber" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="AssetNumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ComplaintPriority" Type="Int32" />
+    <Property Name="SerialNumber" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="IncidentNumber" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="ComplaintDetail" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="CommentsByAdmin" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreatedBy" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="UpdatedDate" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedBy" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="EMSVCategory">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="ParentDesc" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="CategoryId" Type="Int32" Nullable="false" />
+    <Property Name="ParentId" Type="Int32" />
+    <Property Name="CategoryType" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="CategoryCode" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="CategoryDesc" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="SortOrder" Type="Int32" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreatedBy" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="UpdatedDate" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedBy" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="EMSVComplaint">
+    <Key>
+      <PropertyRef Name="ComplaintId" />
+    </Key>
+    <Property Name="ComplaintId" Type="Int32" Nullable="false" />
+    <Property Name="ComplaintStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SubmitterName" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="SubmitterPhoneNo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SubmitterShit" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="RequestDate" Type="DateTime" Precision="0" />
+    <Property Name="Location" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="SubCategoryId" Type="Int32" />
+    <Property Name="SubCategoryOthers" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Unit" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="VehicleNumber" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="AssetNumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ComplaintPriority" Type="Int32" />
+    <Property Name="SerialNumber" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="IncidentNumber" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="ComplaintDetail" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="CommentsByAdmin" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreatedBy" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="UpdatedDate" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedBy" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="CategoryDesc" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="SubCategoryDesc" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="WorkGroupName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="UnitName" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="EMSSupplementalDOC">
+    <Key>
+      <PropertyRef Name="DocId" />
+    </Key>
+    <Property Name="DocId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ComplaintId" Type="Int32" />
+    <Property Name="DocType" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DocName" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DocDesc" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DocDescOther" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DocExt" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Doc" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="ImageDoc" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="DocLocation" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Comments" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreatedBy" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="UpdatedDate" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedBy" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="EMSNote">
+    <Key>
+      <PropertyRef Name="NoteId" />
+    </Key>
+    <Property Name="NoteId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ComplaintId" Type="Int32" />
+    <Property Name="Note" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreatedBy" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="AuthorName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EMSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ffrDev.dbo.CodeFrdUnit' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="CodeFrdUnit">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Unit" Type="varchar" MaxLength="8" />
+    <Property Name="WorkGroupId" Type="int" />
+    <Property Name="WorkGroupAbbrv" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="EMSCategory">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ParentId" Type="int" />
+    <Property Name="CategoryType" Type="varchar" MaxLength="25" />
+    <Property Name="CategoryCode" Type="varchar" MaxLength="25" />
+    <Property Name="CategoryDesc" Type="varchar" MaxLength="250" />
+    <Property Name="SortOrder" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="25" />
+    <Property Name="UpdatedDate" Type="datetime" />
+    <Property Name="UpdatedBy" Type="varchar" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="EMSComplaint">
+    <Key>
+      <PropertyRef Name="ComplaintId" />
+    </Key>
+    <Property Name="ComplaintId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ComplaintStatus" Type="varchar" MaxLength="50" />
+    <Property Name="SubmitterName" Type="varchar" MaxLength="150" />
+    <Property Name="SubmitterPhoneNo" Type="varchar" MaxLength="10" />
+    <Property Name="SubmitterShit" Type="char" MaxLength="1" />
+    <Property Name="RequestDate" Type="date" />
+    <Property Name="Location" Type="varchar" MaxLength="6" />
+    <Property Name="CategoryId" Type="int" />
+    <Property Name="SubCategoryId" Type="int" />
+    <Property Name="SubCategoryOthers" Type="varchar" MaxLength="500" />
+    <Property Name="Unit" Type="varchar" MaxLength="8" />
+    <Property Name="VehicleNumber" Type="varchar" MaxLength="11" />
+    <Property Name="AssetNumber" Type="varchar" MaxLength="10" />
+    <Property Name="ComplaintPriority" Type="int" />
+    <Property Name="SerialNumber" Type="varchar" MaxLength="11" />
+    <Property Name="IncidentNumber" Type="varchar" MaxLength="11" />
+    <Property Name="ComplaintDetail" Type="varchar" MaxLength="5000" />
+    <Property Name="CommentsByAdmin" Type="varchar" MaxLength="5000" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="25" />
+    <Property Name="UpdatedDate" Type="datetime" />
+    <Property Name="UpdatedBy" Type="varchar" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="EMSNote">
+    <Key>
+      <PropertyRef Name="NoteId" />
+    </Key>
+    <Property Name="NoteId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ComplaintId" Type="int" />
+    <Property Name="Note" Type="varchar" MaxLength="5000" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="25" />
+    <Property Name="AuthorName" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="EMSSupplementalDOC">
+    <Key>
+      <PropertyRef Name="DocId" />
+    </Key>
+    <Property Name="DocId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ComplaintId" Type="int" />
+    <Property Name="DocType" Type="varchar" MaxLength="150" />
+    <Property Name="DocName" Type="varchar" MaxLength="150" />
+    <Property Name="DocDesc" Type="varchar" MaxLength="150" />
+    <Property Name="DocDescOther" Type="varchar" MaxLength="150" />
+    <Property Name="DocExt" Type="varchar" MaxLength="10" />
+    <Property Name="Doc" Type="varbinary(max)" />
+    <Property Name="ImageDoc" Type="varbinary(max)" />
+    <Property Name="DocLocation" Type="varchar" MaxLength="255" />
+    <Property Name="Comments" Type="varchar" MaxLength="1000" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="25" />
+    <Property Name="UpdatedDate" Type="datetime" />
+    <Property Name="UpdatedBy" Type="varchar" MaxLength="25" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ffrDev.dbo.CodeVFrdWorkGroupWBattalion' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="CodeVFrdWorkGroupWBattalion">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="WorkGroupAbbrv" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="WorkGroupAbbrv" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="WorkGroupName" Type="varchar" MaxLength="100" />
+    <Property Name="WorkGroupDesc" Type="varchar" MaxLength="150" />
+    <Property Name="PSMACode" Type="varchar" MaxLength="6" />
+    <Property Name="LocationCode" Type="varchar" MaxLength="10" />
+    <Property Name="IndexCode" Type="varchar" MaxLength="6" />
+    <Property Name="EMSIndexCode" Type="varchar" MaxLength="6" />
+    <Property Name="CodeAssociation" Type="varchar" MaxLength="4" />
+    <Property Name="PhoneNo" Type="varchar" MaxLength="10" />
+    <Property Name="Fax" Type="varchar" MaxLength="10" />
+    <Property Name="Pager" Type="varchar" MaxLength="10" />
+    <Property Name="CellPhone" Type="varchar" MaxLength="10" />
+    <Property Name="IsStation" Type="bit" />
+    <Property Name="IsVolStation" Type="bit" />
+    <Property Name="Building" Type="varchar" MaxLength="50" />
+    <Property Name="StreetNum" Type="varchar" MaxLength="10" />
+    <Property Name="StreetName" Type="varchar" MaxLength="50" />
+    <Property Name="City" Type="varchar" MaxLength="50" />
+    <Property Name="State" Type="varchar" MaxLength="2" />
+    <Property Name="ZipCode" Type="varchar" MaxLength="10" />
+    <Property Name="IsHistory" Type="bit" />
+    <Property Name="Comments" Type="varchar" MaxLength="255" />
+    <Property Name="FOCUSWorkLocationCode" Type="varchar" MaxLength="6" />
+    <Property Name="ParentId" Type="int" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="25" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="UpdatedBy" Type="varchar" MaxLength="25" />
+    <Property Name="UpdatedDate" Type="datetime" />
+    <Property Name="battalion" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ffrDev.dbo.EMSVCategory' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="EMSVCategory">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="ParentDesc" Type="varchar" MaxLength="250" />
+    <Property Name="CategoryId" Type="int" Nullable="false" />
+    <Property Name="ParentId" Type="int" />
+    <Property Name="CategoryType" Type="varchar" MaxLength="25" />
+    <Property Name="CategoryCode" Type="varchar" MaxLength="25" />
+    <Property Name="CategoryDesc" Type="varchar" MaxLength="250" />
+    <Property Name="SortOrder" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="25" />
+    <Property Name="UpdatedDate" Type="datetime" />
+    <Property Name="UpdatedBy" Type="varchar" MaxLength="25" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ffrDev.dbo.EMSVComplaint' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="EMSVComplaint">
+    <Key>
+      <PropertyRef Name="ComplaintId" />
+    </Key>
+    <Property Name="ComplaintId" Type="int" Nullable="false" />
+    <Property Name="ComplaintStatus" Type="varchar" MaxLength="50" />
+    <Property Name="SubmitterName" Type="varchar" MaxLength="150" />
+    <Property Name="SubmitterPhoneNo" Type="varchar" MaxLength="10" />
+    <Property Name="SubmitterShit" Type="char" MaxLength="1" />
+    <Property Name="RequestDate" Type="date" />
+    <Property Name="Location" Type="varchar" MaxLength="6" />
+    <Property Name="CategoryId" Type="int" />
+    <Property Name="SubCategoryId" Type="int" />
+    <Property Name="SubCategoryOthers" Type="varchar" MaxLength="500" />
+    <Property Name="Unit" Type="varchar" MaxLength="8" />
+    <Property Name="VehicleNumber" Type="varchar" MaxLength="11" />
+    <Property Name="AssetNumber" Type="varchar" MaxLength="10" />
+    <Property Name="ComplaintPriority" Type="int" />
+    <Property Name="SerialNumber" Type="varchar" MaxLength="11" />
+    <Property Name="IncidentNumber" Type="varchar" MaxLength="11" />
+    <Property Name="ComplaintDetail" Type="varchar" MaxLength="5000" />
+    <Property Name="CommentsByAdmin" Type="varchar" MaxLength="5000" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="25" />
+    <Property Name="UpdatedDate" Type="datetime" />
+    <Property Name="UpdatedBy" Type="varchar" MaxLength="25" />
+    <Property Name="CategoryDesc" Type="varchar" MaxLength="250" />
+    <Property Name="SubCategoryDesc" Type="varchar" MaxLength="250" />
+    <Property Name="WorkGroupName" Type="varchar" MaxLength="100" />
+    <Property Name="UnitName" Type="varchar" MaxLength="8" />
+  </EntityType>
+  <EntityContainer Name="EMSModelStoreContainer">
+    <EntitySet Name="EMSCategory" EntityType="Self.EMSCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EMSComplaint" EntityType="Self.EMSComplaint" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EMSNote" EntityType="Self.EMSNote" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EMSSupplementalDOC" EntityType="Self.EMSSupplementalDOC" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CodeFrdUnit" EntityType="Self.CodeFrdUnit" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [CodeFrdUnit].[Id] AS [Id], 
+    [CodeFrdUnit].[Unit] AS [Unit], 
+    [CodeFrdUnit].[WorkGroupId] AS [WorkGroupId], 
+    [CodeFrdUnit].[WorkGroupAbbrv] AS [WorkGroupAbbrv]
+    FROM [dbo].[CodeFrdUnit] AS [CodeFrdUnit]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="CodeVFrdWorkGroupWBattalion" EntityType="Self.CodeVFrdWorkGroupWBattalion" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [CodeVFrdWorkGroupWBattalion].[Id] AS [Id], 
+    [CodeVFrdWorkGroupWBattalion].[WorkGroupAbbrv] AS [WorkGroupAbbrv], 
+    [CodeVFrdWorkGroupWBattalion].[WorkGroupName] AS [WorkGroupName], 
+    [CodeVFrdWorkGroupWBattalion].[WorkGroupDesc] AS [WorkGroupDesc], 
+    [CodeVFrdWorkGroupWBattalion].[PSMACode] AS [PSMACode], 
+    [CodeVFrdWorkGroupWBattalion].[LocationCode] AS [LocationCode], 
+    [CodeVFrdWorkGroupWBattalion].[IndexCode] AS [IndexCode], 
+    [CodeVFrdWorkGroupWBattalion].[EMSIndexCode] AS [EMSIndexCode], 
+    [CodeVFrdWorkGroupWBattalion].[CodeAssociation] AS [CodeAssociation], 
+    [CodeVFrdWorkGroupWBattalion].[PhoneNo] AS [PhoneNo], 
+    [CodeVFrdWorkGroupWBattalion].[Fax] AS [Fax], 
+    [CodeVFrdWorkGroupWBattalion].[Pager] AS [Pager], 
+    [CodeVFrdWorkGroupWBattalion].[CellPhone] AS [CellPhone], 
+    [CodeVFrdWorkGroupWBattalion].[IsStation] AS [IsStation], 
+    [CodeVFrdWorkGroupWBattalion].[IsVolStation] AS [IsVolStation], 
+    [CodeVFrdWorkGroupWBattalion].[Building] AS [Building], 
+    [CodeVFrdWorkGroupWBattalion].[StreetNum] AS [StreetNum], 
+    [CodeVFrdWorkGroupWBattalion].[StreetName] AS [StreetName], 
+    [CodeVFrdWorkGroupWBattalion].[City] AS [City], 
+    [CodeVFrdWorkGroupWBattalion].[State] AS [State], 
+    [CodeVFrdWorkGroupWBattalion].[ZipCode] AS [ZipCode], 
+    [CodeVFrdWorkGroupWBattalion].[IsHistory] AS [IsHistory], 
+    [CodeVFrdWorkGroupWBattalion].[Comments] AS [Comments], 
+    [CodeVFrdWorkGroupWBattalion].[FOCUSWorkLocationCode] AS [FOCUSWorkLocationCode], 
+    [CodeVFrdWorkGroupWBattalion].[ParentId] AS [ParentId], 
+    [CodeVFrdWorkGroupWBattalion].[CreatedBy] AS [CreatedBy], 
+    [CodeVFrdWorkGroupWBattalion].[CreatedDate] AS [CreatedDate], 
+    [CodeVFrdWorkGroupWBattalion].[UpdatedBy] AS [UpdatedBy], 
+    [CodeVFrdWorkGroupWBattalion].[UpdatedDate] AS [UpdatedDate], 
+    [CodeVFrdWorkGroupWBattalion].[battalion] AS [battalion]
+    FROM [dbo].[CodeVFrdWorkGroupWBattalion] AS [CodeVFrdWorkGroupWBattalion]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="EMSVCategory" EntityType="Self.EMSVCategory" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [EMSVCategory].[ParentDesc] AS [ParentDesc], 
+    [EMSVCategory].[CategoryId] AS [CategoryId], 
+    [EMSVCategory].[ParentId] AS [ParentId], 
+    [EMSVCategory].[CategoryType] AS [CategoryType], 
+    [EMSVCategory].[CategoryCode] AS [CategoryCode], 
+    [EMSVCategory].[CategoryDesc] AS [CategoryDesc], 
+    [EMSVCategory].[SortOrder] AS [SortOrder], 
+    [EMSVCategory].[IsActive] AS [IsActive], 
+    [EMSVCategory].[CreatedDate] AS [CreatedDate], 
+    [EMSVCategory].[CreatedBy] AS [CreatedBy], 
+    [EMSVCategory].[UpdatedDate] AS [UpdatedDate], 
+    [EMSVCategory].[UpdatedBy] AS [UpdatedBy]
+    FROM [dbo].[EMSVCategory] AS [EMSVCategory]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="EMSVComplaint" EntityType="Self.EMSVComplaint" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [EMSVComplaint].[ComplaintId] AS [ComplaintId], 
+    [EMSVComplaint].[ComplaintStatus] AS [ComplaintStatus], 
+    [EMSVComplaint].[SubmitterName] AS [SubmitterName], 
+    [EMSVComplaint].[SubmitterPhoneNo] AS [SubmitterPhoneNo], 
+    [EMSVComplaint].[SubmitterShit] AS [SubmitterShit], 
+    [EMSVComplaint].[RequestDate] AS [RequestDate], 
+    [EMSVComplaint].[Location] AS [Location], 
+    [EMSVComplaint].[CategoryId] AS [CategoryId], 
+    [EMSVComplaint].[SubCategoryId] AS [SubCategoryId], 
+    [EMSVComplaint].[SubCategoryOthers] AS [SubCategoryOthers], 
+    [EMSVComplaint].[Unit] AS [Unit], 
+    [EMSVComplaint].[VehicleNumber] AS [VehicleNumber], 
+    [EMSVComplaint].[AssetNumber] AS [AssetNumber], 
+    [EMSVComplaint].[ComplaintPriority] AS [ComplaintPriority], 
+    [EMSVComplaint].[SerialNumber] AS [SerialNumber], 
+    [EMSVComplaint].[IncidentNumber] AS [IncidentNumber], 
+    [EMSVComplaint].[ComplaintDetail] AS [ComplaintDetail], 
+    [EMSVComplaint].[CommentsByAdmin] AS [CommentsByAdmin], 
+    [EMSVComplaint].[CreatedDate] AS [CreatedDate], 
+    [EMSVComplaint].[CreatedBy] AS [CreatedBy], 
+    [EMSVComplaint].[UpdatedDate] AS [UpdatedDate], 
+    [EMSVComplaint].[UpdatedBy] AS [UpdatedBy], 
+    [EMSVComplaint].[CategoryDesc] AS [CategoryDesc], 
+    [EMSVComplaint].[SubCategoryDesc] AS [SubCategoryDesc], 
+    [EMSVComplaint].[WorkGroupName] AS [WorkGroupName], 
+    [EMSVComplaint].[UnitName] AS [UnitName]
+    FROM [dbo].[EMSVComplaint] AS [EMSVComplaint]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

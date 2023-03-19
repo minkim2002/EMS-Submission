@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c19abf5714c9446c995cca1b678c3398" Name="Diagram1" ZoomLevel="87">
+        <EntityTypeShape EntityType="EMSModel.CodeFrdUnit" Width="1.5" PointX="4.75" PointY="5.5" />
+        <EntityTypeShape EntityType="EMSModel.CodeVFrdWorkGroupWBattalion" Width="1.5" PointX="7" PointY="1.125" />
+        <EntityTypeShape EntityType="EMSModel.EMSCategory" Width="1.5" PointX="0.5" PointY="1" />
+        <EntityTypeShape EntityType="EMSModel.EMSComplaint" Width="1.5" PointX="2.625" PointY="1.125" />
+        <EntityTypeShape EntityType="EMSModel.EMSVCategory" Width="1.5" PointX="0.5" PointY="6.875" />
+        <EntityTypeShape EntityType="EMSModel.EMSVComplaint" Width="1.5" PointX="2.625" PointY="7" />
+        <EntityTypeShape EntityType="EMSModel.EMSSupplementalDOC" Width="1.5" PointX="4.625" PointY="1.125" />
+        <EntityTypeShape EntityType="EMSModel.EMSNote" Width="1.5" PointX="4.875" PointY="7.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
