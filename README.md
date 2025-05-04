@@ -1,1 +1,2 @@
-This is just the codebase I worked on, all the necessary information are excluded due to security reasons.
+This is the codebase I worked on without the important security-related informatione excluded.
+This application is not runnable. 
